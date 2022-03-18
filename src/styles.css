@@ -1,0 +1,194 @@
+.App {
+  position: relative;
+  width: 1000px;
+  height: 647px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  background: #f7f7f7;
+}
+
+.error {
+  position: absolute;
+  top: 200px;
+  left: 280px;
+}
+
+.header {
+  position: absolute;
+  width: 300px;
+  height: 28px;
+  left: 27px;
+  top: 12px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #333333;
+}
+
+.search-bar {
+  position: absolute;
+  width: 961px;
+  height: 102px;
+  left: 27px;
+  top: 60px;
+  background: #ffffff;
+  box-shadow: 0px 18px 15px rgba(148, 148, 148, 0.15);
+  border-radius: 7px;
+}
+
+.search {
+  position: absolute;
+  width: 901px;
+  height: 34px;
+  left: 16px;
+  top: 12px;
+  display: flex;
+  align-items: center;
+  background: #eceff0;
+  border-radius: 4px;
+}
+.input {
+  height: 34px;
+  width: 901px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #9eaab4;
+  background: #eceff0;
+  border: none;
+  outline: none;
+}
+
+.reset {
+  position: absolute;
+  top: 70px;
+  left: 20px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #4f4f4f;
+  display: flex;
+}
+
+.sorting {
+  position: absolute;
+
+  height: 14px;
+  left: 27px;
+  top: 234px;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 14px;
+  color: #9eaab4;
+}
+
+.sorting-header {
+  float: left;
+}
+
+.sorting-types {
+  margin-left: 8px;
+  float: left;
+  border-bottom: 1px dashed;
+}
+
+.sorting-types:active {
+  color: black;
+}
+
+.users {
+  position: absolute;
+  width: 961px;
+  height: 380px;
+  left: 27px;
+  top: 263px;
+  background: #ffffff;
+  border-radius: 7px;
+}
+.container2 {
+  position: absolute;
+}
+
+.container {
+  position: relative;
+}
+
+.name,
+.mail,
+.rate,
+.date,
+.icon1 {
+  position: absolute;
+  top: 16px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #acacac;
+}
+
+.container .name {
+  font-weight: 700;
+  color: #0cb4f1;
+}
+
+.name {
+  margin-left: 16px;
+}
+
+.mail {
+  margin-left: 263px;
+}
+
+.date {
+  margin-left: 513px;
+}
+
+.rate {
+  margin-left: 754px;
+}
+
+.line {
+  margin-top: 48px;
+  border: 1px solid #f7f7f7;
+  margin-left: 16px;
+  margin-right: 18px;
+}
+
+.container2 .name,
+.container2 .mail,
+.container2 .date,
+.container2 .rate {
+  width: 100px;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 14px;
+  color: #9eaab4;
+}
+
+.icon1 {
+  margin-left: 873px;
+}
+
+.pagination {
+  position: absolute;
+  top: 350px;
+  left: 150px;
+  width: 600px;
+  margin-left: 16px;
+  margin-right: 18px;
+  display: flex;
+  justify-content: center;
+}
+.page-item {
+  height: 20px;
+  width: 30px;
+  border: 1px solid #acacac;
+  text-align: center;
+  color: #acacac;
+  font-size: 14px;
+}
+
+.page-item:hover {
+  font-weight: 700;
+  color: black;
+}
